@@ -51,7 +51,7 @@ public class Emailmanagement
         EmailManagementclick.click();
 
         // Declare arrays for Titles, Subjects, and Descriptions
-        String[] ETitles1 = {"Title31464", "Title23151", "Titl3e1422", "Title33722", "Title52432"};
+        String[] ETitles1 = {"Title331464", "Title233151", "Titl3e13422", "Title333722", "Title532432"};
         String[] ESubject = {"Subject3121", "Subjec3t122", "Subject1233", "Subj3ect124", "Subje3ct125"};
         String[] EDesc = {"Descriptio3n128", "Descri3ption432", "Desc3ription374", "Desc3ription144", "Des3cription455"};
 
@@ -86,8 +86,7 @@ public class Emailmanagement
             Assert.assertEquals(actualMessage, expectedMessage, "Email submission message did not match.");
 
             //Add a small wait to handle page reload, if necessary
-            Thread.sleep(1000);     
-            
+            Thread.sleep(1000);           
         }
         
         System.out.println("Email management successfully run");

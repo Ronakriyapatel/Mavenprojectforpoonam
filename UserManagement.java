@@ -42,12 +42,12 @@ public class UserManagement
     @Test
     public void useradd1() throws InterruptedException 
     {
-        String[] firstname = {"Aasdsdasftesh", "Aash", "Evol"};
-        String[] lastname = {"tofhit", "tyash", "tnavat"};
-        String[] emailid = {"dafddasjt@poonamcoatings.com", "yashjdfgeaffo@poonamcoatings.com", "Kfedfvaldg@poonamcoatings.com"};
-        String[] phone = {"8112825752", "8510511242", "9153128782"};
+        String[] firstname = {"Aasdseedasftesh", "Aaeesh", "Eveeol"};
+        String[] lastname = {"tofhieet", "tyaeesh", "tnaveeat"};
+        String[] emailid = {"dafddaseejt@poonamcoatings.com", "yaeeshjdfgeaffo@poonamcoatings.com", "Kfedeefvaldg@poonamcoatings.com"};
+        String[] phone = {"8112823752", "8514511242", "8153128782"};
         String[] gender = {"Female", "Male", "Female"};
-        String[] dob = {"01-12-1975", "01-01-1972", "01-03-1970"};
+        String[] dob = {"01-12-1970", "01-01-1962", "01-03-1982"};
         String[] role = {"Admin", "Admin", "Admin"};
         String[] department = {"Administration", "Administration", "Administration"};
 
