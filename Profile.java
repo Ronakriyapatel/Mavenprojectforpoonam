@@ -27,7 +27,7 @@ public class Profile
 		Username.sendKeys("admin@poonamcoatings.com");		
 		
 		WebElement Password=driver.findElement(By.xpath("//input[@id='password']"));
-		Password.sendKeys("Super@123");
+		Password.sendKeys("Super@1234");
 		
 		WebElement Login=driver.findElement(By.xpath("//button[@type='submit']"));
 		Login.click();	
@@ -95,13 +95,13 @@ public class Profile
         EditbuttonClick.click();   
         
         WebElement CurrentPassword = driver.findElement(By.xpath("//input[@id='current_password']"));
-        CurrentPassword.sendKeys("Super@123");   
+        CurrentPassword.sendKeys("Super@1234");   
         
         WebElement Password = driver.findElement(By.xpath("//input[@id='password']"));
-        Password.sendKeys("Super@1234");  
+        Password.sendKeys("Super@123");  
         
         WebElement Retype = driver.findElement(By.xpath("//input[@id='retype_password']"));
-        Retype.sendKeys("Super@1234");
+        Retype.sendKeys("Super@123");
         
         WebElement Saveclick = driver.findElement(By.xpath("//button[@type='submit']"));
         Saveclick.click();        

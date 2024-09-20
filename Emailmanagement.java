@@ -51,9 +51,9 @@ public class Emailmanagement
         EmailManagementclick.click();
 
         // Declare arrays for Titles, Subjects, and Descriptions
-        String[] ETitles1 = {"Title331464", "Title233151", "Titl3e13422", "Title333722", "Title532432"};
-        String[] ESubject = {"Subject3121", "Subjec3t122", "Subject1233", "Subj3ect124", "Subje3ct125"};
-        String[] EDesc = {"Descriptio3n128", "Descri3ption432", "Desc3ription374", "Desc3ription144", "Des3cription455"};
+        String[] ETitles1 = {"Title001", "Title002", "Title003", "Title004", "Title005"};
+        String[] ESubject = {"Subject1", "Subject2", "Subject3", "Subject4", "Subject5"};
+        String[] EDesc = {"Description1", "Description2", "Description3", "Description4", "Description5"};
 
         // Loop through each email
         for (int i = 0; i < ETitles1.length; i++) 
