@@ -87,7 +87,7 @@ public class Departentadd
                 WebElement submit = driver.findElement(By.xpath("//button[@type='submit']"));
                 submit.click();
                 
-                // Wait for the department to be added
+       
                 Thread.sleep(2000);
             } 
             
@@ -109,3 +109,6 @@ public class Departentadd
 //        }
 //    }
 }
+
+
+//Perfect run 20.09.27

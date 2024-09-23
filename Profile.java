@@ -27,7 +27,7 @@ public class Profile
 		Username.sendKeys("admin@poonamcoatings.com");		
 		
 		WebElement Password=driver.findElement(By.xpath("//input[@id='password']"));
-		Password.sendKeys("Super@1234");
+		Password.sendKeys("Super@123");
 		
 		WebElement Login=driver.findElement(By.xpath("//button[@type='submit']"));
 		Login.click();	
